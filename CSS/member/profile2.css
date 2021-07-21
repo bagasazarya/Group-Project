@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+main {padding-bottom: 179px;}
+main section {max-width: 1440px; margin: 0 auto;}
+
+.kv {padding-top: 63px;}
+
+.profile {width: 100%;}
+.profile .contents-title {font-size: 45px; letter-spacing: -0.02em; color: #fff;}
+
+.intro {width: 100%; margin-top: -120px; padding: 33px 180px 145px; color: #1b3140;}
+.intro .contents-title {font-size: 90px; line-height: 80px; letter-spacing: 0; text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); vertical-align: top;}
+.intro .contents-title .kor {font-family:'NotoSansCJKkr-B'; font-size: 77px; line-height: 80px; letter-spacing: -0.065em;}
+
+
+
+@media screen and (max-width: 1440px) {
+
+main {padding-bottom: 12.43vw;}
+
+.profile .contents-title {font-size: 3.125vw;}
+
+.intro {margin-top: -8.33vw; padding: 2.29vw 12.5vw 10.07vw;}
+.intro .contents-title {font-size: 6.25vw; line-height: 5.56vw; text-shadow: 0px 0px 0.21vw rgba(0, 0, 0, 0.3);}
+.intro .contents-title .kor {font-size: 5.35vw; line-height: 5.56vw;}
+.intro .contents-desc {padding-top: 8.4vw;}
+
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+main {padding-bottom: 50vw;}
+
+.kv {padding-top: 12.5vw;}
+.kv .contents-obj img {width: 89.82vw; margin: 0 auto;}
+
+.profile .contents-title {font-size: 8.33vw; letter-spacing: 0;}
+
+.intro {display: block; margin-top: -16.39vw; padding: 4.58vw 5.09vw 20.14vw;}
+.mac-os .intro, .safari .intro {margin-top: -15.29vw;}
+.intro > * {display: block;}
+.intro .contents-title {margin-left: -1.25vw; line-height: 9.72vw; text-shadow: 0px 0px 0.42vw rgba(0, 0, 0, 0.2);}
+.intro .contents-title .kor {display: block; margin: -0.28vw 0 0.56vw; font-size: 11.67vw; line-height: inherit;}
+.device .intro .contents-title, .mac-os .intro .contents-title, .safari .intro .contents-title {margin-left: 0;}
+.mac-os .intro .contents-title .kor, .safari .intro .contents-title .kor {margin-top: -0.92vw;}
+.intro .contents-desc {margin-left: -1.39vw; padding-top: 5.83vw;}
+.device .intro .contents-desc, .mac-os .intro .contents-desc, .safari .intro .contents-desc {margin-left: -0.14vw;}
+}
+
+
+
+
+
+@media screen and (max-width: 450px) {
+
+.members .popup-inner > ul > li dt {font-size: 22px;}
+
+}
+
+
+@media screen and (max-width: 320px) {
+
+main {padding-bottom: 160px;}
+
+.kv {padding-top: 40px;}
+.kv .contents-obj img {width: 287px;}
+
+.profile .contents-title {font-size: 27px;}
+
+.intro {margin-top: -52px; padding: 15px 16px 64px;}
+.mac-os .intro, .safari .intro {margin-top: -50px;}
+.intro .contents-title {margin-left: -1px; line-height: 31px; text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);}
+.intro .contents-title .kor {margin: -1px 0 2px; font-size: 37px;}
+.mac-os .intro .contents-title .kor, .safari .intro .contents-title .kor {margin-top: -6px;}
+.intro .contents-desc {margin-left: 0; padding-top: 19px;}
+.device .intro .contents-desc, .mac-os .intro .contents-desc, .safari .intro .contents-desc {margin-left: 0;}
+
+}
+
+
+
+
+
+
+
+

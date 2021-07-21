@@ -1,0 +1,74 @@
+﻿@charset "utf-8";
+
+* {margin: 0; padding: 0; box-sizing: border-box; outline: none;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html, body {width: 100%; height: auto; min-height: 100%; font-size: 1em; font-family: 'Camber-SB', 'NotoSansCJKkr-M';}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, main, section, caption {display: block;}
+ul, ol {list-style-type: none;}
+blockquote, q {quotes: none;}
+a {text-decoration: none; color: inherit;}
+table {border-collapse: collapse; border-spacing: 0;}
+colgroup {display: table-column-group;}
+col {display: table-column;}
+em {font-style: italic;}
+
+
+body {overflow-x: hidden; width: 100%; min-width: 320px; margin: 0 auto;}
+
+section {position: relative;}
+
+footer {margin-top: -1px;}
+
+.clearfy > *:last-child::after {content: ''; clear: both;}
+.valign {display: table; width: 100%; height: 100%;}
+.valign > * {display: table-cell; vertical-align: middle;}
+.half > * {float: left; width: 50%;}
+.quat > * {float: left; width: 25%;}
+.full > * {width: 100%;}
+.contents-obj img {display: block; width: 100%;}
+.contents-obj.portrait {height: 100%;}
+.contents-obj.portrait img {width: auto; height: 100%; margin: auto;}
+.contents-white {color: #fff;}
+
+.album-list {width: 100%; max-width: 1440px; margin: 0 auto; padding: 157px 180px 131px;}
+.album-list > * {max-width: 1440px; margin: 0 auto;}
+.album-list .contents-title {z-index: 1; position: relative; font-size: 90px; color: #fff; text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3); text-align: center;}
+.album-list ul {overflow: hidden; margin-top: -32px;}
+.mac-os .album-list ul {margin-top: -39px;}
+.album-list li {float: left; width: 32.13%; margin-right: 1.805%; margin-bottom: 1.805%;}
+.album-list li:nth-child(3n) {margin-right: 0;}
+.album-list li a {position: relative; display: block; width: 100%; height: 100%;}
+.album-list li .info_box {display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; padding: 20px; background: rgba(0, 0, 0, 0.7); font-family: 'NotoSansCJKkr-M'; font-size: 20px; line-height: 20px; color: #fff; text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.44); text-align: center;}
+.album-list li a:focus .info_box, .album-list li a:hover .info_box {display: block;}
+.device .album-list li a:focus .info_box, .device .album-list li a:hover .info_box {display: none;}
+.album-list li .info_box p {margin-bottom: 12px; font-size: 13px;}
+
+@media screen and (max-width: 1440px) {
+	.album-list {padding: 10.9vw 12.5vw 9.1vw;}
+	.album-list .contents-title {font-size: 6.25vw;}
+	.album-list ul {margin-top: -2.22vw;}
+	.mac-os .album-list ul, .safari .album-list ul {margin-top: -2.74vw;}
+	.album-list li .info_box {padding: 1.39vw; font-size: 1.39vw; line-height: 1.39vw; text-shadow: 0px 0px 0.21vw rgba(0, 0, 0, 0.44);}
+	.album-list li .info_box p {margin-bottom: 0.83vw; font-size: 0.9vw;}
+
+@media screen and (max-width: 768px) {
+	.contents-obj.portrait img {height: 89.03vw;}
+	.contents-obj.portrait.m-landscape img {width: 100%; height: auto;}
+
+}
+
+
+
+
+

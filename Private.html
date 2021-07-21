@@ -1,0 +1,146 @@
+﻿<!doctype html>
+<html>
+<link rel="shortcut icon" href="CSS/icon.png">
+<head>
+	<title>BLACKPINK PRIVATE-STAGE Chapter1</title>
+	<link rel="stylesheet" href="css/Private.css">
+	<link href="CSS/sns.css" rel="stylesheet" type="text/css">
+	<link type="text/css" rel="stylesheet" href="css/tour.css">
+	<script src="css/jquery-1.12.4.js"></script>
+	<script src="css/function.js"></script>
+	<script src="css/base.js"></script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131926026-11"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gothic+A1:400,900&amp;subset=korean" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua|Roboto+Mono" rel="stylesheet">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-34707883-23"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gothic+A1:500,700,900&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+			<main class="contents-white">
+			<section class="all-tour">
+				<div class="drop_inner">
+					<button type="button" class="">	PRIVATE STAGE </button>
+					<ul>
+						<li>
+							<a href="Concert.html" title="">IN YOUR AREA</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+<div id="wrap" class="">
+	<div id="content">
+		<div id="main" class="section"> 
+			<div id="alert_message">"Click on the poster"</div>
+			<div class="flip-container container">
+				<div class="poster">
+	                <div class="front"></div>
+	                <div class="back"></div>
+           		</div>
+			</div>
+			<div class="info">
+				<img class="pc" src="css/info_pc.png">
+				<img class="mobile" src="css/info_mobile.png">
+			</div>
+		</div>
+		<div id="about" class="section">
+			<h2>ABOUT</h2>
+			<div class="about-chapter1">
+				<p><strong>DEAR. BLINKS</strong>
+				</p>
+				<img class="icon-heart" src="css/heart.png">
+				<p>오직 BLINK를 위해<br>BLACKPINK가 전하는 선물같은 하루<br>BLACKPINK 2019 PRIVATE STAGE<br>[Chapter 1]</p>
+				<p>우리만의 첫 번째 챕터를 만들어갈<br>소중한 시간에 함께 해주세요</p>
+			</div>
+			<a href="https://paybooc.co.kr/app/paybooc/Culture.do?mFocus=Culture&amp;returnURL=https://culture.paybooc.co.kr:447/Pages/Perf/Detail.aspx?IdPerf=7089" target="_blank" class="button buy paybooc">
+				<img src="css/buy-paybooc.png" alt="buy-ticket">
+			</a>
+			<a href="http://ticketgen.auction.co.kr/VIP/5A4770505F155C42584772.html?preview=5A4770505F155C42584772" target="_blank" class="button buy auction">
+				<img src="css/buy-auction.png" alt="buy-ticket">
+			</a>
+			<div class="private-stage">
+				<p><strong>PRIVATE STAGE란?</strong></p>
+				<p>아티스트와 팬 사이의 교감을 핵심으로<br>완성도 높은 공연을 지향하는</p><p>YG의 새로운 팬미팅 브랜드 입니다.</p>
+			</div>
+		</div>
+		<div id="video" class="section">
+			<h2>VIDEO</h2>
+			<div class="video-embed-area">
+				<iframe width="560" height="315" src="http://www.youtube.com/embed/Isgle6jNYgQ?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen name="video-embed"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="css/jquery.min.js"></script>
+<script type="text/javascript" src="css/iframeResizer.contentWindow.min.js"></script>
+<script>
+	$(function(){
+		var hrefs = ['https://paybooc.co.kr/app/paybooc/Culture.do?returnURL=https://m.culture.paybooc.co.kr:8604/Pages/Perf/Detail.aspx?IdPerf=7089'];
+
+		$(window).on('resize', function() {
+			$('.paybooc').attr('href', function() {
+				return hrefs[$(window).width() < 900 ? 0 : 1];
+			});
+		}).trigger('resize');
+	});
+</script>
+<script>
+	$(function(){
+		var hrefs = ['http://mticketgen.auction.co.kr/VIP/5B4375535C5B.html'];
+
+		$(window).on('resize', function() {
+			$('.auction').attr('href', function() {
+				return hrefs[$(window).width() < 900 ? 0 : 1];
+			});
+		}).trigger('resize');
+	});
+</script>
+<script>
+	$('.poster').on('click', function() {
+        $('.poster').toggleClass('flipped');
+    });
+
+    window.setTimeout(function() {
+	  $("#alert_message").fadeTo(400, 0).slideUp(400, function(){
+	    $(this).remove(); 
+	  });
+	}, 1000);
+</script>
+
+<script async src="http://www.googletagmanager.com/gtag/js?id=UA-34707883-23"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-34707883-23');
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.14/iframeResizer.contentWindow.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+	$('.poster').magnificPopup({
+		type: 'image',
+		gallery:{
+			enabled:true
+		}
+	});
+</script>
+
+<footer>
+                <div class="jyplogo">
+                    <a href="CSS/Register.html" target="_blank">FORUM</a>
+                </div>
+                <div class="snsicon">
+                    <a href="https://www.instagram.com/blackpinkofficial/?hl=en" target="_blank" class="sb no-border insta">blackpinkofficial</a>
+                    <a href="https://twitter.com/ygofficialblink?lang=en" target="_blank" class="sb no-border twitter">@ygofficialblink</a>
+                    <a href="https://www.facebook.com/BLACKPINKOFFICIAL/" target="_blank" class="sb no-border facebook">Blackpink Official Facebook</a>
+                    <a href="https://www.youtube.com/watch?v=2S24-y0Ij3Y" target="_blank" class="sb no-border youtube">Blackpink Youtube</a>
+                    <a href="https://channels.vlive.tv/F001E5" target="_blank" class="sb no-border fans">Blackpink Fan's</a>
+					<a href="HTML UTAMA.html" target="_blank" class="sb no-border home">HOME</a>
+                </div>
+                <div class="clear"></div>
+            </footer>
+</body>
+
+</html>

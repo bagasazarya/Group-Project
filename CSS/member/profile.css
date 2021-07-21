@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+main {background: black;}
+main section {max-width: 1440px; margin: 0 auto;}
+main .kv {max-width: 1080px;}
+
+.intro {left: -5px;}
+.intro .contents-title {width: 36.57%; padding-top: 119px; padding-right: 30px;}
+.intro .contents-desc {width: 63.43%; padding-top: 121px; color: #c5ceff; opacity: 0.8;}
+.mac-os .intro .contents-title, .safari .intro .contents-title {padding-top: 127px;}
+
+
+
+@media screen and (max-width: 1440px) {
+
+.intro {left: -0.35vw;}
+.intro .contents-title {padding-top: 8.26vw; padding-right: 2.08vw;}
+.intro .contents-desc {padding-top: 8.4vw;}
+.mac-os .intro .contents-title, .safari .intro .contents-title {padding-top: 8.82vw;}
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+.kv {padding-top: 26.7vw;}
+
+.intro {left: 0; padding-bottom: 25vw;}
+.intro .contents-title {width: 100%; padding-top: 10.69vw; padding-right: 0; font-size: 13.89vw;}
+.intro .contents-desc {width: 100%;}
+.mac-os .intro .contents-title {padding-top: 10.69vw;}
+.safari .intro .contents-title {padding-top: 10.9vw;}
+.intro .contents-desc {padding-top: 5.83vw;}
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 320px) {
+.kv {padding-top: 85px;}
+
+.intro {left: 0; padding-bottom: 80px;}
+.intro .contents-title {margin-left: -2px; padding-top: 34px; padding-right: 25px; font-size: 44px;}
+.mac-os .intro .contents-title, .safari .intro .contents-title {padding-top: 34px;}
+.intro .contents-desc {padding-top: 19px;}
+
+}
+
+
+
+
+
+
+
+

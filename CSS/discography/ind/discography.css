@@ -1,0 +1,135 @@
+﻿@charset "utf-8";
+
+.album-list_wrap {background: #2759a0;}
+.album-list_wrap .album-list .contents-title {color: #fff;}
+
+.album-detail .bottom.kor ul li .contents-sub {text-shadow: none;}
+
+.album-detail .album-photo .slide-wrap .btn-next {background-image: url('btn-next-photo.png');}
+.album-detail .album-photo .slide-wrap .btn-prev {background-image: url('btn-prev-photo.png');}
+
+.album-detail .comeback_map {margin-top: 165px; max-width:100%;}
+.album-detail .comeback_map::before {content: ''; display: block; position: absolute; top: 146px; left: 0; width: 100%; height: 1083px; background-color: #16468a;}
+.album-detail .comeback_map .comeback_inner {position: relative; width: 1080px; height: 100%; margin: -15px auto 94px;}
+.device .album-detail .comeback_map .contents-title,
+.mac-os .album-detail .comeback_map .contents-title {top: 10px;}
+.mac-os.safari .album-detail .comeback_map .contents-title {top: 9px;}
+.InternetExplorer .album-detail .comeback_map .contents-title {top: 4px;}
+
+body:not(.device) .map_of_the_soul-persona .album-detail .album-photo .slide-wrap .btn-next.active {background-image: url('btn-next-photo.png');}
+body:not(.device) .map_of_the_soul-persona .album-detail .album-photo .slide-wrap .btn-prev.active {background-image: url('btn-prev-photo.png');}
+.map_of_the_soul-persona {background: url('bg4.jpg') no-repeat center; background-size: 100% 100%;}
+.map_of_the_soul-persona .album-detail {background: url('bg4.jpg') no-repeat center top -29px; background-size: 1588px auto;}
+.map_of_the_soul-persona .album-detail .contents-sort {color: #a33267;}
+.map_of_the_soul-persona .album-detail .album-desc {color: #383032;}
+.map_of_the_soul-persona .album-detail .album-video .slide-wrap {background: #ef6c90;}
+.map_of_the_soul-persona .album-detail .album-photo .slide-wrap::before {background: rgba(239, 108, 144, 0.7);}
+.map_of_the_soul-persona .album-detail .bottom ul li {color: #f0c5cf;}
+.map_of_the_soul-persona .album-detail .bottom ul li.active {color: #ffecf1;}
+.map_of_the_soul-persona .album-detail .bottom ul li:not(.active):focus, .map_of_the_soul-persona .album-detail .bottom ul li:not(.active):hover {color: #ffecf1;}
+.map_of_the_soul-persona .album-detail .song-list .list-inner {color: #56233a;}
+.map_of_the_soul-persona .album-detail .song-list .contents-sub {color: #482937;}
+.map_of_the_soul-persona .album-detail .song-list .num {color: #ffe8f2;}
+.map_of_the_soul-persona .album-detail .song-list .track {color: #56233a;}
+.map_of_the_soul-persona .album-detail .bottom.rows ul::after {background: #e4849c;}
+.map_of_the_soul-persona .album-detail .contents-sub{text-transform: initial;}
+
+body:not(.device) .dark_and_wild .album-detail .album-photo .slide-wrap .btn-next.active {background-image: url('btn-next-photo.png');}
+body:not(.device) .dark_and_wild .album-detail .album-photo .slide-wrap .btn-prev.active {background-image: url('btn-prev-photo.png');}
+.dark_and_wild .album-detail {background: #000;}
+.dark_and_wild .album-detail .contents-sort {color: #831012;}
+.dark_and_wild .album-detail .album-desc {color: #d8d8d8;}
+.dark_and_wild .album-detail .album-video .slide-wrap {background: rgba(255, 255, 255, 0.1);}
+.dark_and_wild .album-detail .album-photo .slide-wrap::before {background: rgba(255, 255, 255, 0.1);}
+.dark_and_wild .album-detail .bottom ul li {color: #949494;}
+.dark_and_wild .album-detail .bottom ul li.active {color: #fbfbfb;}
+.dark_and_wild .album-detail .bottom ul li:not(.active):focus, .dark_and_wild .album-detail .bottom ul li:not(.active):hover {color: #fbfbfb;}
+.dark_and_wild .album-detail .song-list .list-inner {color: #e7e7e7;}
+.dark_and_wild .album-detail .song-list .contents-sub {color: #fff;}
+.dark_and_wild .album-detail .song-list .num {color: #a02a2a;}
+.dark_and_wild .album-detail .song-list .track {color: #999;}
+.dark_and_wild .album-detail .bottom ul li {padding: 0 52px;}
+.dark_and_wild .album-detail .album-photo .bottom ul li {padding: 0 49px;}
+.dark_and_wild .album-detail .album-video .bottom ul li:first-child {padding-left: 0;}
+.dark_and_wild .album-detail .album-video .bottom ul li:last-child {padding-right: 0;}
+
+@media screen and (max-width: 1456px) {
+	.album-list_wrap {background-position: center bottom -91.125%; background-size: 118.4% auto;}
+	.mac-os .album-list_wrap{background-position: center bottom -189px;}
+}
+
+@media screen and (max-width: 1440px) {
+	.mac-os .album-list_wrap, .safari .album-list_wrap {background-position: center bottom -91.125%;}
+
+	.album-detail .comeback_map {margin-top: 11.46vw;}
+	.album-detail .comeback_map::before {top: 10.14vw; height: 75.21vw;}
+	.album-detail .comeback_map .comeback_inner {width: 75vw; margin: -1.04vw auto 6.52vw;}
+	.device .album-detail .comeback_map .contents-title,
+	.mac-os .album-detail .comeback_map .contents-title {top: 0.7vw;}
+	.mac-os.safari .album-detail .comeback_map .contents-title {top: 0.6vw;}
+	.InternetExplorer .album-detail .comeback_map .contents-title {top: 0.28vw;}
+
+	.map_of_the_soul-persona .album-detail {background-position: center top -2.01%; background-size: 110.28% auto;}
+	.map_of_the_soul-persona .album-detail .bottom.rows ul{padding-top: 2.15vw;}
+	.map_of_the_soul-persona .album-detail .bottom.rows ul::after {background: #e4849c; margin-top: -0.07vw;}
+	.map_of_the_soul-persona .album-detail .bottom.rows ul li.taller{padding-top: 2.15vw;}
+	
+	.dark_and_wild .album-detail .bottom ul li {padding: 0 3.61vw;}
+	.dark_and_wild .album-detail .album-photo .bottom ul li {padding: 0 3.4vw;}
+}
+
+@media screen and (max-width: 1030px) {
+	.map_of_the_soul-persona .album-detail .album-video .bottom ul li:first-child,
+	.map_of_the_soul-persona .album-detail .album-video .bottom ul li:nth-child(5){padding-left: 0;}
+	.map_of_the_soul-persona .album-detail .album-video .bottom ul li:nth-child(4),
+	.map_of_the_soul-persona .album-detail .album-video .bottom ul li:last-child{padding-right: 0;}
+	
+	.dark_and_wild .album-detail .album-photo .bottom ul li {padding: 0 3vw;}
+}
+
+@media screen and (max-width: 951px) {
+	.map_of_the_soul-persona .album-detail .bottom ul li {padding: 0 2.08vw;}
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+	.album-list_wrap {background-image: none;}
+
+	.album-detail .comeback_map {margin: 21.67vw 0 20.31vw;}
+	.album-detail .comeback_map::before {top: 9.03vw; height: 118.89vw;}
+	.album-detail .comeback_map .comeback_inner {margin-top: 7.36vw; width: 100%;}
+	.device .album-detail .comeback_map .contents-title,
+	.mac-os .album-detail .comeback_map .contents-title,
+	.mac-os.safari .album-detail .comeback_map .contents-title {top: 1.4vw;}
+	.InternetExplorer .album-detail .comeback_map .contents-title {top: 0.6vw;}
+	
+	.map_of_the_soul-persona {background: none;}
+	.map_of_the_soul-persona .album-detail {background: url("bg4.jpg") no-repeat center; background-size: 100% 100%;}
+	.map_of_the_soul-persona .album-detail .album-video .slide-wrap {background: none;}
+	.map_of_the_soul-persona .album-detail .album-photo .slide-wrap::before {display: none;}
+	.map_of_the_soul-persona .album-detail .album-photo .slide-wrap > ul > li .mix {background: rgba(239, 108, 144, 0.7);}
+	.map_of_the_soul-persona .album-detail .slide-wrap > ul > li .contents-sub {color: #ffebf0;}
+	
+	.dark_and_wild .album-detail .album-video .slide-wrap {background: none;}
+	.dark_and_wild .album-detail .album-photo .slide-wrap::before {display: none;}
+	.dark_and_wild .album-detail .album-photo .slide-wrap > ul > li .mix {background: rgba(255, 255, 255, 0.1);}
+	.dark_and_wild .album-detail .contents-sub {color: #c7c7c7;}
+
+}
+
+@media screen and (max-width: 320px) {
+	.album-detail .comeback_map {margin: 69px 0 65px;}
+	.album-detail .comeback_map::before {top: 29px; height: 380px;}
+	.album-detail .comeback_map .comeback_inner {margin-top: 23px;}
+	.device .album-detail .comeback_map .contents-title,
+	.mac-os .album-detail .comeback_map .contents-title,
+	.mac-os.safari .album-detail .comeback_map .contents-title {top: 4px;}
+	.InternetExplorer .album-detail .comeback_map .contents-title {top: 1px;}
+	
+
+	.o_rul8_2 .album-detail .album-photo .slide-wrap > ul > li:first-child ul {height: 285px;}
+
+	.too_cool_4_school .album-detail .album-photo .slide-wrap > ul > li:first-child ul {height: 285px;}
+}
